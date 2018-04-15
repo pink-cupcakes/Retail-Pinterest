@@ -1,0 +1,183 @@
+body {
+  font-family: "MuseoSans-500", Helvetica, sans-serif;
+  color: #575d65;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  background: url('https://app.beomni.com/assets/icons/apple-touch-icon.png?v=sep2016%22') 50% 50% no-repeat;
+  background-size: 100%;
+  max-width: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.app {
+  width: 100%;
+  height: 100%
+}
+
+.homepage {
+  display: flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.itemList {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.itemList span {
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.listThumbnail {
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.listThumbnail .pricePerDay {
+  position: relative;
+  bottom: -35px;
+  left: 50px;
+  color: red;
+  font-weight: lighter;
+  background-color: white;
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.listThumbnail img {
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+
+.listThumbnail p {
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.itemDetail img {
+  width: 100%;
+  max-width: 500px; 
+  max-height: 500px;
+}
+
+.itemDetail {
+  position: relative;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  justify-content: flex-start;
+  flex-wrap: wrap
+}
+
+.homeButton {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contents h4 {
+  margin-top: 0 !important;
+}
+
+.contents {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+}
+
+.commentThread {
+  width: 100%;
+}
+
+.comment {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.comment p {
+  margin: 0;
+  padding: 0;
+}
+
+.itemText {
+  margin-left: 30px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.user {
+  cursor: pointer;
+  width: 30%;
+}
+
+.comment .content {
+  width: 70%;
+}
+
+.username {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+.username textarea {
+  width: 80%;
+  height: 50px;
+}
+
+.newComment {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.newComment textarea {
+  width: 100%;
+  height: 50px;
+}
